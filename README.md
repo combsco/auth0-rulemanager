@@ -3,9 +3,10 @@
 > Management of Auth0 Rules
 
 ## Requirements
-Auth0 Account
-Auth0 Management API token with at least scopes of read:clients, read:rules you can use the token generator at https://auth0.com/docs/api/v2
-and you'll need to create a new app within the Auth0 Dashboard to protect this app's content.
+- Auth0 Account
+- Auth0 Management API Token - Generate token at https://auth0.com/docs/api/v2
+ - Scopes: read:client, read:rules
+- A new app clientId to protect this app and possibly a rule to whitelist users.
 
 ## Build Setup
 
