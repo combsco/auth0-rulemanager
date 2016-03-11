@@ -9,9 +9,7 @@
 </template>
 
 <script>
-import store from './vuex/store'
 export default {
-  store,
   replace: false
 }
 </script>
